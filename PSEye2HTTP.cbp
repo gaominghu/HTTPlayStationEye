@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PSEye2HTTP" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../addons/ofxHTTP/src/ofxHTTP.h">
+			<Option virtualFolder="addons/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultCookieProcessor.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/HTTPAuthenticationRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoFrameQueue.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseClient.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoFrame.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultRedirectProcessor.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/OAuth20Credentials.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseServerSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/ClientEvents.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/SessionAuthenticationRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseRouteSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseRouteHandler.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultClient.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseAuthenticationRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/ProgressMonitor.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/FileSystemRouteSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/FileSystemRouteHandler.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/WebSocketRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/Context.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/ThreadSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoRouteHandler.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultProxyProcessor.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultResponseStreamFilter.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/ProxySettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BasicIPVideoServer.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/WebSocketConnection.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PostRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/ClientProgressStream.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PostRouteSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/Cookie.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PutRequest.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/Credentials.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/SessionSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/CookieUtils.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/OAuth10Credentials.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultClientTask.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/URIBuilder.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PostRouteHandler.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/FileSystemRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BasicWebSocketServer.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoFrameSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BasicPostServer.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultSessionProvider.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/WebSocketRouteSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/SessionCache.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PostRequest.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/AuthScope.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseResponse.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/CookieStore.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/OAuth10RequestFilter.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/Compression.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/WebSocketFrame.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/GetRequest.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BaseRequest.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoRoute.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/IPVideoRouteSettings.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/BasicServer.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultClientHeaders.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/HTTPUtils.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/StreamUtils.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/Session.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultRequestStreamFilter.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/DefaultClientTaskQueue.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/CredentialStore.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/src/PostRouteFileHandler.cpp">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/WebSocketConnection.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseRouteHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultServerAuthenticationManager.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Context.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/CookieUtils.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ThreadSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/FileSystemRouteSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/URIBuilder.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultCookieProcessor.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/WebSocketFrame.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/SessionSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseAuthenticationRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ClientProgressStream.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ProgressMonitor.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultClientHeaders.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseRouteSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/OAuth10RequestFilter.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BasicWebSocketServer.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/WebSocketRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/OAuth10Credentials.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRequest.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseClient.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultResponseStreamFilter.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultClientTask.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/CookieStore.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Authentication.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseResponse.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultRequestStreamFilter.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultSessionProvider.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseRequest.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ProxySettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/FileSystemRouteHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/AbstractServerTypes.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/WebSocketEvents.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/HTTPUtils.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BasicPostServer.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseServer.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BasicServer.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Credentials.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/FileSystemRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/AuthScope.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/WebSocketRouteSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/GetRequest.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Session.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Compression.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/Cookie.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRouteSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PutRequest.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BasicIPVideoServer.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoRouteHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultClientTaskQueue.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/HTTPAuthenticationRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRouteEvents.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultClient.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRouteFileHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoFrame.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/OAuth20Credentials.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultRedirectProcessor.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/SessionCache.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/BaseServerSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoFrameQueue.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ServerEvents.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/CredentialStore.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/AbstractClientTypes.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoFrameSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/HTTP.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/StreamUtils.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/SessionAuthenticationRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoRoute.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ThreadErrorHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/DefaultProxyProcessor.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/ClientEvents.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/PostRouteHandler.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+		<Unit filename="../../../addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP/IPVideoRouteSettings.h">
+			<Option virtualFolder="addons/ofxHTTP/libs/ofxHTTP/include/ofx/HTTP" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
